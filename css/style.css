@@ -181,7 +181,7 @@ h3{
     margin-left: 1%;
     margin-right: 1%;
     animation-name: womenFriendship;
-    animation-delay: 5s;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -194,7 +194,7 @@ h3{
 #Men1{
     margin-left: 1%;
     margin-right: 0%;
-    animation-name: Menmove;
+    animation-name: menMove;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -208,7 +208,7 @@ h3{
 #huddled1{
     margin-left: 1%;
     margin-right: 1%;
-    animation-name: Menmove;
+    animation-name: huddledMove;
     animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -249,7 +249,7 @@ h3{
         transform: scale(1) 
     }
     to{
-        transform: translate(-35px,10px) translate(20px,-50px);;
+        transform: translate(-35px,10px) translate(20px,-50px);
 
     }
 
@@ -301,24 +301,28 @@ h3{
   
 }
 
-@keyframes Menmove{
+@keyframes menMove{
     from{
-        transform: scale(1);
+        transform:200px,10px;
     }
     to{
-        translate:(35px,10px);
+        transform: rotate(-30deg) translate(20px, 0px);
+    }
+   
+  
+}
+
+@keyframes huddledMove{
+    from{
+        transform:200px,10px;
+    }
+    to{
+        transform: rotate(30deg)translate(-20px, 0px);
     }
   
 }
 
-@keyframes Death{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(3) translate(0px,50px);
-    }
-}
+
 
 
 
@@ -354,4 +358,16 @@ h3{
 .legs1:hover {
      transform: rotate(90deg);
 }
+
+.death1{
+    margin-left: 0%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+.death1:hover {
+    transform: scale(3) translate(0px,50px);
+}
+
 
