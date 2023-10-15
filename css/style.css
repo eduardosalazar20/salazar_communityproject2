@@ -149,15 +149,15 @@ h3{
 }
 
 #faith1{
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 1%;
     animation-name: faith;
-    animation-delay: 0s;
+    animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -176,19 +176,6 @@ h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.playTime1{
-    margin-left: 1%;
-    margin-right: 1%;
-    animation-name: playTime;
-    animation-delay: 2s;
-    animation-direction: forwards;
-    animation-duration: 9s;
-    transition-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
 
 #women{
     margin-left: 1%;
@@ -292,16 +279,6 @@ h3{
 
 }
 
-@keyframes legs{
-    from{
-        transform: rotate(0);
-    }
-    to{
-        transform: rotate(90deg);
-
-    }
-  
-}
 
 @keyframes playTime{
     from{
@@ -355,5 +332,26 @@ h3{
     transform: skew(60deg);
 
 }
+.playTime1{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 25s;
+}
+.playTime1:hover {
+    transform: rotate(9000deg);
+}
 
+
+.legs1{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+.legs1:hover {
+     transform: rotate(90deg);
+}
 
