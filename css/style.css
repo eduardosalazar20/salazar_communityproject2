@@ -263,13 +263,43 @@ h3{
 
 }
 
+#faith2{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: faithUp;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#community2{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: communityUp;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 
 @keyframes growandFly{
     from{
         transform: scale(1) 
     }
     to{
-        transform: translate(35px,10px)translate(20px,-50px);;
+        transform: translate(35px,10px)translate(20px,-50px); 
 
     }
 
@@ -366,15 +396,50 @@ h3{
 }
 
 @keyframes babiestoblessed{
-    from{
-        transform: scale(1) 
-    }
-    to{
-        transform:  skew(45deg,50deg) translate(-200px,10px);
 
-    }
+
+    50% {
+        transform: scale(1) translate(0px,-80px);
+     }
+     
+     100%{
+         transform: translate(227px, 0px);
+     }
+
 
 }
+
+@keyframes faithUp{
+
+
+    50% {
+        transform: scale(3) translate(0px,-230px);
+     }
+     
+     100%{
+         transform: scale(1)
+     }
+
+
+}
+
+@keyframes communityUp{
+
+
+    50% {
+        transform: scale(3) translate(0px,-230px);
+     }
+     
+     100%{
+         transform: scale(1)
+     }
+
+
+}
+
+   
+
+
 
 
 
