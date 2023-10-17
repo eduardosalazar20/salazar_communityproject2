@@ -2,7 +2,7 @@
 
 by Eduardo Salazar
 
-10/7/23
+10/17/23
 
 
 
@@ -12,7 +12,7 @@ In this project we are tasked to research a poem or song that represents what co
 
 # technical overview:
 
-A 90% of this project is still in progress. The text that is choosen is " Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ". The font was chosen in order to have a corrolation to font that is use in bibles and religion which is mainly serifs. Specific words were set to be animated. 
+A 90% of this project is still in progress. The text that is choosen is " Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ". The font was chosen in order to have a corrolation to font that is use in bibles and religion which is mainly serifs. Specific words were set to be animated. First page was set 
 
 # acknowledgment
 
