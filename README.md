@@ -19,9 +19,9 @@ Each word had their own id or class. For the first page, the text that are set f
 
 Index 2 text animations are "faith, dangled their legs and pews". Faith is using an id in order to have text to scale and as way to represent of something growth of believing. Tranform scale 1- 3 was set. Dangled legs used a class in order to have a hover effect. It was set as legs1:hover with a rotate. The animation is supposed to signfy what I interpert these texts. Pews does not have an animation yet but has nav and a tag link to connect to hmtl 3
 
-Index 3 text animations are "playtime and best". Play has a hover effect using a class. 
+Index 3 text animations are "playtime and best". Play has a hover effect using a class. Playtimes animation was spinning 9000deg in order to represent something moving as connects to children. Its set was playTime1:hover utransform: rotate(9000deg). Best has no animation as it still being worked on. 
 
-Index 4 text animations are "grew friendships and sales".
+Index 4 text animations are "grew friendships and sales". Grew friendships has an id of "womenFriendship" in order to have animation set. It has the setup of keyframes womenFriendship: transform: scale(1) to transform: scale(3) and translate(0px,-50px). sales is not yet animated but it still in the process. The nav and a tag was applied to the word connecting to html 5.
 
 Index 5 text animations are "men, huddled and till death". 
 
@@ -37,4 +37,8 @@ Index 9 text animations are "joining a family larger than their own"
 
 # acknowledgment
 
-The 
+Resources that helped me create certain animations:
+
+ https://youtu.be/4PbgtyE0mGs?si=eh5JiIverFSNtK8T
+
+ 
