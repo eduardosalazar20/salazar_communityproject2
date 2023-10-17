@@ -40,6 +40,8 @@ Index 9 text animations are "joining a family larger than their own"
 
 Resources that helped me create certain animations:
 
+This animation was used to create using and id tag. 
+
  https://youtu.be/4PbgtyE0mGs?si=eh5JiIverFSNtK8T
 
  
