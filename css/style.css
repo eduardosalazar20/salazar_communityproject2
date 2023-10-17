@@ -278,12 +278,26 @@ h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+#lean1{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: leanSide;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 #community2{
 
     margin-left: 1%;
     margin-right: 1%;
     animation-name: communityUp;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
