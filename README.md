@@ -32,7 +32,7 @@ Index 7 text animations are "babies and blessed". The babies text has an id tag 
 
 Index 8 text animations are "faith and community". Faith and community have animation of going up and down infintly. This animatin was set to signify the faith and community going towards up god as you are rising up towards god. Further iterations could be added. An id was set to get this affect using a keyframes. A keyframe of 50% of transform: scale(1) translate(0px,-80px) to 100% to transform: translate(227px, 0px). Community is set to have an a tag and nav to html 9. 
 
-Index 9 text animations are "joining a family larger than their own". For the final animation all of the texts gather together as way to represent a 1 whole faminly joining together. The id class was set to get this animation. 
+Index 9 text animations are "joining a family larger than their own". For the final animation all of the texts gather together as way to represent a 1 whole faminly joining together. The id class was set to get this animation using keyframes joinfam1 starting to 0%, 10%,100% to width: 0 to 70%, 90% to a width of 100%.
 
 
 
