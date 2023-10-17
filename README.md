@@ -21,9 +21,10 @@ Index 2 text animations are "faith, dangled their legs and pews". Faith is using
 
 Index 3 text animations are "playtime and best". Play has a hover effect using a class. Playtimes animation was spinning 9000deg in order to represent something moving as connects to children. Its set was playTime1:hover utransform: rotate(9000deg). Best has no animation as it still being worked on. 
 
-Index 4 text animations are "grew friendships and sales". Grew friendships has an id of "womenFriendship" in order to have animation set. It has the setup of keyframes womenFriendship: transform: scale(1) to transform: scale(3) and translate(0px,-50px). sales is not yet animated but it still in the process. The nav and a tag was applied to the word connecting to html 5.
+Index 4 text animations are "grew friendships and sales". Grew friendships has an id of "womenFriendship" in order to have animation set. This the represent the growth of something making it going up. It has the setup of keyframes womenFriendship: transform: scale(1) to transform: scale(3) and translate(0px,-50px). sales is not yet animated but it still in the process. The nav and a tag was applied to the word connecting to html 5.
 
-Index 5 text animations are "men, huddled and till death". 
+Index 5 text animations are "men, huddled and till death". Men and huddle had an id of the same name. Keyframes for men was set to menMove from transform:200px,10px to transform: rotate(-30deg) translate(20px, 0px), in order to have the text move in to the other text huddled. For huddled the keyframe was set huddledMove from transform:200px,10px, to transform: rotate(30deg)translate(-20px, 0px). This has the same animation as men but going towards to men text. This animation gives life to both words showing a represention of what two words mean how I interepert it. The till death animation has class set in order to get the animation to go down representing death as death usually means something going towards the ground. It has a nav and a tag linking to html 6. 
+    
 
 Index 6 text animations are "lean, challange, celebrate and in times of joy". 
 
