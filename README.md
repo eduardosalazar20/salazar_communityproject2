@@ -30,9 +30,9 @@ Index 6 text animations are "lean, challange, celebrate and in times of joy". Le
 
 Index 7 text animations are "babies and blessed". The babies text has an id tag as the animation is set to go up and head right into the blessed text. This animationw as done by using a keyframe it was using a  50% of transform: scale(1) translate(0px,-80px) to 100% of transform: translate(227px, 0px). The purpose of this animation was set to represent babies being brought over, which has rising start and heading over. Blesssed has no animation yet as further research is still being done, it has a nav and a tag linking to html 8.
 
-Index 8 text animations are "faith and community"
+Index 8 text animations are "faith and community". Faith and community have animation of going up and down infintly. This animatin was set to signify the faith and community going towards up god as you are rising up towards god. Further iterations could be added. An id was set to get this affect using a keyframes. A keyframe of 50% of transform: scale(1) translate(0px,-80px) to 100% to transform: translate(227px, 0px). Community is set to have an a tag and nav to html 9. 
 
-Index 9 text animations are "joining a family larger than their own"
+Index 9 text animations are "joining a family larger than their own". For the final animation all of the texts gather together as way to represent a 1 whole faminly joining together. The id class was set to get this animation. 
 
 
 
