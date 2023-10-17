@@ -15,7 +15,23 @@ In this project we are tasked to research a poem or song that represents what co
 A 85% of this project is still in progress. The software that was used to create this project was visual studio code. 9 htmls and 1 css were created each having their own folder to be organized. The layout of this project is to have the user interact with the text and take you to another page. The text that is choosen is " Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ". The font was chosen in order to have a corrolation to font that is use in bibles and religion which is mainly serifs. An Id class was set to group the which is called at "PoemIntro". Specifications were set "display: flex, flex-direction: row,  align-items: center; width: 100%; height: 100vh; background-color: white, color: #36bbf9,font-size: 25px, font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif.
 
 
-Each word had their own id or class. For the first page, the text that are set for animation were " community, gathered, place, certainly, comfort and solid". Community and gathered animations are set to go up and unite as part of what it represents. To this keyframes were set scale and translate for both using a negative and postive numhers to set their postition. Place used keyframes: scale, translate, translate in order to have the word go up and hover certainly and comfort. Solid has a div class with a nav, a tag, in order to target to the nex html. 
+Each word had their own id or class. For the first page, the text that are set for animation were " community, gathered, place, certainly, comfort and solid". Community and gathered animations are set to go up and unite as part of what it represents. To this keyframes were set scale and translate for both using a negative and postive numhers to set their postition. Place used keyframes: scale, translate, translate in order to have the word go up and hover certainly and comfort. Solid has a div class with a nav, a tag, in order to target to the next html. 
+
+Index 2 text animations are "faith, dangled their legs and pews".
+
+Index 3 text animations are "playtime and best". 
+
+Index 4 text animations are "grew friendships and sales".
+
+Index 5 text animations are "men, huddled and till death". 
+
+Index 6 text animations are "lean, challange, celebrate and in times of joy". 
+
+Index 7 text animations are "babies and blessed". 
+
+Index 8 text animations are "faith and community"
+
+Index 9 text animations are "joining a family larger than their own"
 
 
 
