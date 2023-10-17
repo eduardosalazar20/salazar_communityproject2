@@ -1,0 +1,536 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+html {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #36bbf9;
+}
+
+a {
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #36bbf9;
+    margin-left: 5px;
+   
+
+}
+
+
+nav a:link {
+    color: #36bbf9;
+    text-decoration: none;
+   
+
+}
+
+nav a:hover {
+    color: #36bbf9;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    
+} 
+h3{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 5px;
+    align-items: center;
+}
+#poemIntro{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #36bbf9;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#poemIntro2{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #36bbf9;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#community{
+    margin-left: 1%;
+    margin-right: 3%;
+    animation-name: growandFly;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#gathered{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: growandFly2;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#place1{
+    margin-left: 0.5%;
+    margin-right: 1%;
+    animation-name: upRight;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#certainty1{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    animation-name: up;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#comfort1{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    animation-name: up;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#solid1{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+#faith1{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: faith;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#legs{
+    margin-left: 1%;
+    margin-right: 3%;
+    animation-name: legs;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+#women{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: womenFriendship;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#Men1{
+    margin-left: 1%;
+    margin-right: 0%;
+    animation-name: menMove;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#huddled1{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: huddledMove;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#death1{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: Death;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#joiningaFam{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: joinfam1;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#babies1 {
+
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: babiestoblessed;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#faith2{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: faithUp;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#lean1{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: leanSide;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#community2{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: communityUp;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+@keyframes growandFly{
+    from{
+        transform: scale(1) 
+    }
+    to{
+        transform: translate(35px,10px)translate(20px,-50px); 
+
+    }
+
+}
+
+@keyframes growandFly2{
+    from{
+        transform: scale(1) 
+    }
+    to{
+        transform: translate(-35px,10px) translate(20px,-50px);
+
+    }
+
+}
+
+@keyframes upRight{
+
+        50% {
+           transform: scale(1) translate(0px,-50px);
+        }
+        
+        100%{
+            transform: translate(200px, 0px);
+        }
+
+}
+
+
+@keyframes faith{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2) 
+
+    }
+
+}
+
+
+@keyframes playTime{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(9000deg);
+
+    }
+  
+}
+
+@keyframes womenFriendship{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(3) translate(0px,-50px);
+    }
+  
+}
+
+@keyframes menMove{
+    from{
+        transform:200px,10px;
+    }
+    to{
+        transform: rotate(-30deg) translate(20px, 0px);
+    }
+   
+  
+}
+
+@keyframes huddledMove{
+    from{
+        transform:200px,10px;
+    }
+    to{
+        transform: rotate(30deg)translate(-20px, 0px);
+    }
+  
+}
+
+
+@keyframes babiestoblessed{
+
+
+    50% {
+        transform: scale(1) translate(0px,-80px);
+     }
+     
+     100%{
+         transform: translate(227px, 0px);
+     }
+
+
+}
+
+@keyframes faithUp{
+
+
+    50% {
+        transform: scale(3) translate(0px,-230px);
+     }
+     
+     100%{
+         transform: scale(1)
+     }
+
+
+}
+
+@keyframes communityUp{
+
+
+    50% {
+        transform: scale(3) translate(0px,-230px);
+     }
+     
+     100%{
+         transform: scale(1)
+     }
+
+
+}
+
+@keyframes joinfam1{
+    0%, 10%,100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
+  
+}
+
+
+
+
+.solid1{
+    transition-duration: .2s;
+}
+
+
+.solid1:hover {
+
+    transform: skew(60deg);
+
+}
+.playTime1{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: 25s;
+}
+.playTime1:hover {
+    transform: rotate(9000deg);
+}
+
+
+.legs1{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+.legs1:hover {
+     transform: rotate(90deg);
+}
+
+.death1{
+    margin-left: 0%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+.death1:hover {
+    transform: scale(3) translate(0px,50px);
+}
+
+.challenge1{
+    margin-left: 0%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+    
+}
+
+.challenge1:hover {
+    transform: skew(60deg,50deg) rotate(4000deg) translate(90px,40px);
+}
+
+.celebrate2{
+    margin-left: 0%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .9s;
+    
+}
+.celebrate2:hover {
+    transform:rotateY(1000deg) skew(17deg);
+}
+
+.joy1{
+    margin-left: 0%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+.joy1:hover {
+    transform:  skew(45deg,50deg) translate(-200px,10px);
+}
