@@ -23,10 +23,10 @@ Index 3 text animations are "playtime and best". Play has a hover effect using a
 
 Index 4 text animations are "grew friendships and sales". Grew friendships has an id of "womenFriendship" in order to have animation set. This the represent the growth of something making it going up. It has the setup of keyframes womenFriendship: transform: scale(1) to transform: scale(3) and translate(0px,-50px). sales is not yet animated but it still in the process. The nav and a tag was applied to the word connecting to html 5.
 
-Index 5 text animations are "men, huddled and till death". Men and huddle had an id of the same name. Keyframes for men was set to menMove from transform:200px,10px to transform: rotate(-30deg) translate(20px, 0px), in order to have the text move in to the other text huddled. For huddled the keyframe was set huddledMove from transform:200px,10px, to transform: rotate(30deg)translate(-20px, 0px). This has the same animation as men but going towards to men text. This animation gives life to both words showing a represention of what two words mean how I interepert it. The till death animation has class set in order to get the animation to go down representing death as death usually means something going towards the ground. It has a nav and a tag linking to html 6. 
+Index 5 text animations are "men, huddled and till death". Men and huddle had an id of the same name. Keyframes for men was set to menMove from transform:200px,10px to transform: rotate(-30deg) translate(20px, 0px), in order to have the text move in to the other text huddled. For huddled the keyframe was set huddledMove from transform:200px,10px, to transform: rotate(30deg)translate(-20px, 0px). This has the same animation as men but going towards to men text. This animation gives life to both words showing a represention of what two words mean how I interepert it. The till death animation has class set in order to get the animation to go down representing death as death usually means something going towards the ground. Its set to death1:hover transform: scale(3) translate(0px,50px). It has a nav and a tag linking to html 6. 
     
 
-Index 6 text animations are "lean, challange, celebrate and in times of joy". 
+Index 6 text animations are "lean, challange, celebrate and in times of joy". Lean has not have animation yet as the text is trying to have unique animation. Challange has a hover effect. The animation has an affect unstable as challange isn't alway straight. 
 
 Index 7 text animations are "babies and blessed". 
 
