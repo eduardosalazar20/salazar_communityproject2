@@ -12,12 +12,12 @@ In this project we are tasked to research a poem or song that represents what co
 
 # technical overview:
 
-A 85% of this project is still in progress. The software that was used to create this project was visual studio code. 9 htmls and 1 css were created each having their own folder to be organized. The layout of this project is to have the user interact with the text and take you to another page. The text that is choosen is " Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ". The font was chosen in order to have a corrolation to font that is use in bibles and religion which is mainly serifs. An Id class was set to group the which is called at "PoemIntro". Specifications were set "display: flex, flex-direction: row,  align-items: center; width: 100%; height: 100vh; background-color: white, color: #36bbf9,font-size: 25px, font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif.
+A 85% of this project is still in progress. The software that was used to create this project was visual studio code. 9 htmls and 1 css were created each having their own folder to be organized. The layout of this project is to have the user interact with the text and take you to another page. The text that is choosen is " Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ". The font was chosen in order to have a corrolation to font that is use in bibles and religion which is mainly serifs. An Id class was set to group the which is called at "PoemIntro". Specifications were set "display: flex, flex-direction: row,  align-items: center; width: 100%; height: 100vh; background-color: white, color: #36bbf9 ,font-size: 25px, font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif.
 
 
-Each word had their own id or class. For the first page, the text that are set for animation were " community, gathered, place, certainly, comfort and solid". Community and gathered animations are set to go up and unite as part of what it represents. To this keyframes were set scale and translate for both using a negative and postive numhers to set their postition. Place used keyframes: scale, translate, translate in order to have the word go up and hover certainly and comfort. Solid has a div class with a nav, a tag, in order to target to the next html. 
+Each word had their own id or class. For the first page, the text that are set for animation were " community, gathered, place, certainly, comfort and solid". Community and gathered animations are set to go up and unite as part of what it represents. To this keyframes were set scale and translate for both using a negative and postive numhers to set their postition. Place used keyframes: scale, translate, translate in order to have the word go up and hover certainly and comfort. Solid has a div class with a nav, a tag, in order to target to the next html 2. 
 
-Index 2 text animations are "faith, dangled their legs and pews".
+Index 2 text animations are "faith, dangled their legs and pews". Faith is using an id in order to have text to scale and as way to represent of something growth of believing. Tranform scale 1- 3 was set. Dangled legs used a class in order to have a hover effect. It was set as legs1:hover with a rotate. The animation is supposed to signfy what I interpert these texts. Pews does not have an animation yet but has nav and a tag link to connect to hmtl 3
 
 Index 3 text animations are "playtime and best". 
 
@@ -37,4 +37,4 @@ Index 9 text animations are "joining a family larger than their own"
 
 # acknowledgment
 
-
+The 
