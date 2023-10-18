@@ -1,59 +1,44 @@
-/*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+}
 
 html {
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #36bbf9;
-}
-
-a {
-    text-decoration: none;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    color: #36bbf9;
-    margin-left: 5px;
-   
-
-}
-
-
-nav a:link {
-    color: #36bbf9;
-    text-decoration: none;
-   
-
-}
-
-nav a:hover {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
     color: #36bbf9;
 }
-
 
 body {
     width: 100%;
     min-height: 100vh;
+    /*margin-left: 30px;*/
     
 } 
+
+
 h3{
     font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 5px;
     align-items: center;
 }
+
+
 #poemIntro{
     display: flex;
     flex-direction: row;    
     align-items: center;
+    background-color: white;
     width: 100%;
     height: 100vh;
-    background-color: white;
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 90px;
 }
 
 #poemIntro2{
@@ -66,13 +51,45 @@ h3{
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 265px;
 }
 
+#poemIntro3{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #36bbf9;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    
+}
+
+#poemIntro4{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #36bbf9;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    
+}
+
+
+
 #community{
-    margin-left: 1%;
+    margin-left: 0.5%;
     margin-right: 3%;
     animation-name: growandFly;
-    animation-delay: 0s;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -84,10 +101,10 @@ h3{
 }
 
 #gathered{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     animation-name: growandFly2;
-    animation-delay: 0s;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -100,7 +117,7 @@ h3{
 
 #place1{
     margin-left: 0.5%;
-    margin-right: 1%;
+    margin-right: 0.5%;
     animation-name: upRight;
     animation-delay: 3s;
     animation-direction: forwards;
@@ -124,6 +141,7 @@ h3{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
@@ -149,8 +167,8 @@ h3{
 }
 
 #faith1{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     animation-name: faith;
     animation-delay: 3s;
     animation-direction: forwards;
@@ -159,6 +177,7 @@ h3{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -173,6 +192,7 @@ h3{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -188,6 +208,7 @@ h3{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -294,8 +315,8 @@ h3{
 
 #community2{
 
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     animation-name: communityUp;
     animation-delay: 2s;
     animation-direction: forwards;
@@ -305,7 +326,32 @@ h3{
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
 }
+
+a {
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #36bbf9;
+    margin-left: 5px;
+    font-weight: 600;
+   
+
+}
+
+
+nav a:link {
+    color: #36bbf9;
+    text-decoration: none;
+   
+
+}
+
+nav a:hover {
+    color: #36bbf9;
+}
+
 
 
 @keyframes growandFly{
@@ -338,6 +384,7 @@ h3{
         
         100%{
             transform: translate(200px, 0px);
+            
         }
 
 }
@@ -367,13 +414,22 @@ h3{
 }
 
 @keyframes womenFriendship{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(3) translate(0px,-50px);
-    }
   
+  
+    50% {
+        transform: scale(1) ;
+     }
+     
+     100%{
+         transform: scale(3) translate(0px,-50px);
+     }
+
+     50% {
+        transform: scale(1) ;
+    
+     }
+
+
 }
 
 @keyframes menMove{
@@ -457,18 +513,20 @@ h3{
 
 .solid1{
     transition-duration: .2s;
+    margin-left: 0.1%;
 }
 
 
 .solid1:hover {
 
-    transform: skew(60deg);
+    color: rgb(4, 251, 255);
 
 }
 .playTime1{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition-duration: 25s;
 }
@@ -478,9 +536,10 @@ h3{
 
 
 .legs1{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition-duration: .7s;
 }
@@ -492,19 +551,21 @@ h3{
     margin-left: 0%;
     margin-right: 1%;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition-duration: .7s;
 }
 .death1:hover {
-    transform: scale(3) translate(0px,50px);
+    color: black;
+    transform: scale(3) translate(0px,50px); 
 }
 
 .challenge1{
-    margin-left: 0%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition-duration: .7s;
+    transition-duration: .200s;
     
 }
 
@@ -513,11 +574,12 @@ h3{
 }
 
 .celebrate2{
-    margin-left: 0%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition-duration: .9s;
+    transition-duration: .40s;
+    font-weight: 600;
     
 }
 .celebrate2:hover {
@@ -525,12 +587,23 @@ h3{
 }
 
 .joy1{
-    margin-left: 0%;
+    margin-left: 0.3%;
     margin-right: 1%;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition-duration: .7s;
 }
 .joy1:hover {
-    transform:  skew(45deg,50deg) translate(-200px,10px);
+    color: rgb(255, 183, 0);;
+}
+
+.blessed3{
+    margin-left: 0.3%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+.blessed3:hover {
+    color: rgb(7, 221, 253);
 }
