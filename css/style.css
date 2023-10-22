@@ -436,7 +436,7 @@ h3{
     animation-name: joinfam1;
     animation-delay: 3s;
     animation-direction: forwards;
-    animation-duration: 3s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -449,7 +449,7 @@ h3{
     margin-left: 0.4%;
     margin-right: 0.4%;
     animation-name: babiestoblessed;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-direction: forwards;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -561,7 +561,7 @@ nav a:hover {
         color: #36bbf9;
     }
     to{
-        color: aqua;
+        color: rgb(4, 0, 255);
 
 }
 
@@ -655,7 +655,7 @@ nav a:hover {
      }
      
      50% {
-         transform: scale(3) translate(0px,-50px) ;
+         transform: scale(2) translate(0px,-50px) ;
      }
 
      100% {
@@ -731,15 +731,21 @@ nav a:hover {
 }
 
 @keyframes joinfam1{
-    0%, 10%,100%
+    0%, 25%, 50%
     {
         width: 0;
     }
-    70%, 90%
+    70%
     {
         width: 100%;
     }
   
+ 75%, 100%
+{
+    width: 100%;
+}
+
+
 }
 
 
