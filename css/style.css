@@ -41,13 +41,24 @@ h3{
     margin-left: 90px;
 }
 
+#bluebackground{
+    animation-name: blue1;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+
+ 
+}
+
 #poemIntro2{
     display: flex;
     flex-direction: row;    
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -75,7 +86,7 @@ h3{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -131,7 +142,7 @@ h3{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(195, 255, 254);
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -161,7 +172,7 @@ h3{
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -176,8 +187,23 @@ h3{
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+#solid1{
+    margin-left: 0.2%;
+    margin-right: 0.5%;
+    animation-name: solid1;
+    animation-delay: 7s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:inherit;
+    animation-timing-function: ease-out;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
@@ -186,7 +212,7 @@ h3{
 #place1{
     margin-left: 0.5%;
     margin-right: 0.5%;
-    animation-name: upRight;
+    animation-name: upRight1;
     animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -232,22 +258,10 @@ h3{
 #solid1{
     margin-left: 0.5%;
     margin-right: 0.5%;
+
 }
 
-#faith1{
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    animation-name: faith;
-    animation-delay: 3s;
-    animation-direction: forwards;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    font-size: 25px;
-    font-weight: 600;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
+
 
 #legs{
     margin-left: 1%;
@@ -265,13 +279,30 @@ h3{
 }
 
 
+#best1{
+    margin-left: 0.3%;
+    margin-right: 3%;
+    animation-name: best2;
+    animation-delay: 7s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+
 #women{
     margin-left: 1%;
     margin-right: 1%;
     animation-name: womenFriendship;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-direction: forwards;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -279,6 +310,23 @@ h3{
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+#sales1{
+    margin-left: 0.3%;
+    margin-right: 3%;
+    animation-name: best2;
+    animation-delay: 4s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
 
 #Men1{
     margin-left: 1%;
@@ -288,7 +336,7 @@ h3{
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -302,11 +350,26 @@ h3{
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+#love1{
+    margin-left: 0.3%;
+    margin-right: 0.4%;
+    animation-name: love2;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 
 #death1{
     margin-left: 1%;
@@ -352,6 +415,21 @@ h3{
 
 }
 
+
+#lean1{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: leanSide;
+    animation-delay: 2s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 #faith2{
 
     margin-left: 1%;
@@ -367,19 +445,6 @@ h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-#lean1{
-    margin-left: 1%;
-    margin-right: 1%;
-    animation-name: leanSide;
-    animation-delay: 2s;
-    animation-direction: forwards;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
 
 #community2{
 
@@ -420,6 +485,31 @@ nav a:hover {
     color: #36bbf9;
 }
 
+@keyframes blue1{
+    0%{
+        background-color: #f8f1f1;
+}
+
+100%{
+
+    background-color: rgb(205, 217, 253);
+}
+
+
+}
+
+
+
+@keyframes solid1{
+    from{
+        color: #36bbf9;
+    }
+    to{
+        color: aqua;
+
+}
+
+}
 
 
 @keyframes growandFly{
@@ -427,7 +517,7 @@ nav a:hover {
         transform: scale(1) 
     }
     to{
-        transform: translate(35px,10px)translate(20px,-50px); 
+        transform: translate(20px,10px)translate(20px,-50px); 
 
     }
 
@@ -438,7 +528,7 @@ nav a:hover {
         transform: scale(1) 
     }
     to{
-        transform: translate(-35px,10px) translate(20px,-50px);
+        transform: translate(-30px,10px) translate(20px,-50px);
 
     }
 
@@ -469,6 +559,15 @@ nav a:hover {
 
 }
 
+@keyframes love2{
+    from{
+        color: #36bbf9;
+    }
+    to{
+        color: rgb(249, 65, 255);
+
+}
+}
 
 @keyframes playTime{
     from{
@@ -481,18 +580,29 @@ nav a:hover {
   
 }
 
+
+@keyframes best2{
+    from{
+        color: #36bbf9;
+    }
+    to{
+        color: rgb(255, 198, 10);
+
+}
+}
+
 @keyframes womenFriendship{
   
   
-    50% {
+    25% {
         transform: scale(1) ;
      }
      
-     100%{
-         transform: scale(3) translate(0px,-50px);
+     50% {
+         transform: scale(3) translate(0px,-50px) ;
      }
 
-     50% {
+     100% {
         transform: scale(1) ;
     
      }
@@ -579,17 +689,8 @@ nav a:hover {
 
 
 
-.solid1{
-    transition-duration: .2s;
-    margin-left: 0.1%;
-}
 
 
-.solid1:hover {
-
-    color: rgb(4, 251, 255);
-
-}
 .playTime1{
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -613,6 +714,7 @@ nav a:hover {
 }
 .legs1:hover {
      transform: rotate(90deg);
+     color: #7891ff;
 }
 
 .death1{
@@ -623,6 +725,10 @@ nav a:hover {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition-duration: .7s;
 }
+
+
+
+
 .death1:hover {
     color: black;
     transform: scale(3) translate(0px,50px); 
@@ -674,4 +780,18 @@ nav a:hover {
 }
 .blessed3:hover {
     color: rgb(7, 221, 253);
+}
+
+
+.pews1{
+    margin-left: 0.3%;
+    margin-right: 1%;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration: .7s;
+}
+
+.pews1:hover{
+background-color: rgb(225, 142, 75);
+color: brown;
 }
