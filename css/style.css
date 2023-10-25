@@ -236,10 +236,20 @@ h3{
 #credits1{
 
     color: #36bbf9;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+
+#church1{
+
+    color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
-    margin-left: 7px;
+    margin-left: 0px;
     margin-bottom: 20px;
 }
 
