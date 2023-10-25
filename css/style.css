@@ -130,7 +130,6 @@ h3{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -273,22 +272,21 @@ h3{
 
 
 
-
-
-#legs{
-    margin-left: 1%;
+#pews1{
+    margin-left: 0.3%;
     margin-right: 3%;
-    animation-name: legs;
-    animation-delay: 0s;
+    animation-name: pews2;
+    animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 
 #trade1{
 
@@ -297,7 +295,7 @@ h3{
     animation-name: faithUp;
     animation-delay: 2s;
     animation-direction: forwards;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -311,9 +309,9 @@ h3{
     margin-left: 0.5%;
     margin-right: 0.5%;
     animation-name: communityUp;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-direction: forwards;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -321,8 +319,6 @@ h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 }
-
-
 
 #best1{
     margin-left: 0.3%;
@@ -341,11 +337,13 @@ h3{
 
 
 
+
+
 #women{
     margin-left: 1%;
     margin-right: 1%;
     animation-name: womenFriendship;
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 6s;
     animation-fill-mode: forwards;
@@ -369,7 +367,6 @@ h3{
     font-size: 25px;
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
 }
 
 
@@ -405,7 +402,7 @@ h3{
     margin-left: 0.3%;
     margin-right: 0.4%;
     animation-name: love2;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -417,30 +414,34 @@ h3{
 
 
 #death1{
-    margin-left: 1%;
+    margin-left: 0.3%;
     margin-right: 1%;
-    animation-name: Death;
+    animation-name: death2;
     animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-#joiningaFam{
-    margin-left: 1%;
+
+
+#joy1{
+    margin-left: 0.3%;
     margin-right: 1%;
-    animation-name: joinfam1;
-    animation-delay: 3s;
+    animation-name: joy2;
+    animation-delay: 4s;
     animation-direction: forwards;
-    animation-duration: 8s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: inherit;
     animation-timing-function: ease-in-out;
     font-size: 25px;
+    font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -460,20 +461,23 @@ h3{
 
 }
 
+#blessed3 {
 
-#lean1{
-    margin-left: 1%;
-    margin-right: 1%;
-    animation-name: leanSide;
-    animation-delay: 2s;
+    margin-left: 0.4%;
+    margin-right: 0.4%;
+    animation-name: blessed2;
+    animation-delay: 1s;
     animation-direction: forwards;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: initial;
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
 }
+
+
 
 #faith2{
 
@@ -507,6 +511,21 @@ h3{
 
 }
 
+
+#joiningaFam{
+    margin-left: 1%;
+    margin-right: 1%;
+    animation-name: joinfam1;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 a {
     text-decoration: none;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -537,7 +556,7 @@ nav a:hover {
 
 100%{
 
-    background-color: rgb(205, 217, 253);
+    background-color: rgb(190, 225, 255);
 }
 
 }
@@ -636,6 +655,16 @@ nav a:hover {
   
 }
 
+@keyframes pews2{
+    from{
+        color: #36bbf9;
+    }
+    to{
+        background-color: rgb(225, 142, 75); color: brown;
+
+}
+}
+
 
 @keyframes best2{
     from{
@@ -687,6 +716,26 @@ nav a:hover {
   
 }
 
+@keyframes death2{
+    from{
+        transform:scale(1) ;
+    }
+    to{
+        color:black;  transform: scale(3) translate(0px,50px) ; 
+
+}
+}
+
+@keyframes joy2{
+    from{
+        color: #36bbf9;
+    }
+    to{
+        color: rgba(255, 200, 0, 0.882);
+
+}
+
+}
 
 @keyframes babiestoblessed{
 
@@ -699,6 +748,17 @@ nav a:hover {
          transform: translate(227px, 0px);
      }
 
+
+}
+
+@keyframes blessed2{
+    from{
+        color: #36bbf9;
+    }
+    to{
+        color: rgba(255, 200, 0, 0.882);
+
+}
 
 }
 
@@ -821,17 +881,6 @@ nav a:hover {
     transform:rotateY(1000deg) skew(17deg);
 }
 
-.joy1{
-    margin-left: 0.3%;
-    margin-right: 1%;
-    font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition-duration: .7s;
-}
-.joy1:hover {
-    color: rgb(255, 183, 0);;
-}
-
 .blessed3{
     margin-left: 0.3%;
     margin-right: 1%;
@@ -844,15 +893,3 @@ nav a:hover {
 }
 
 
-.pews1{
-    margin-left: 0.3%;
-    margin-right: 1%;
-    font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition-duration: .7s;
-}
-
-.pews1:hover{
-background-color: rgb(225, 142, 75);
-color: brown;
-}
