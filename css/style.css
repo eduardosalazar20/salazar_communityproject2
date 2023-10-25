@@ -776,6 +776,35 @@ nav a:hover {
 }
 
 
+@keyframes trading2{
+
+
+    50% {
+        transform: scale(1) translate(0px,-120px);
+     }
+     
+     100%{
+         transform: scale(1)
+     }
+
+
+}
+
+@keyframes glance2{
+
+
+    50% {
+        transform: scale(1) translate(0px,-120px);
+     }
+     
+     100%{
+         transform: scale(1)
+     }
+
+
+}
+
+
 @keyframes best2{
     from{
         color: #36bbf9;
@@ -872,33 +901,7 @@ nav a:hover {
 
 }
 
-@keyframes trading2{
 
-
-    50% {
-        transform: scale(1) translate(0px,-120px);
-     }
-     
-     100%{
-         transform: scale(1)
-     }
-
-
-}
-
-@keyframes glance2{
-
-
-    50% {
-        transform: scale(1) translate(0px,-120px);
-     }
-     
-     100%{
-         transform: scale(1)
-     }
-
-
-}
 
 @keyframes joinfam1{
     0%, 25%, 50%
