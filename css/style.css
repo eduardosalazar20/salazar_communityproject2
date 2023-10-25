@@ -79,7 +79,11 @@ h3{
 }
 
 
+#background3{
+   
+    background-color: rgb(251, 239, 212);
 
+} 
 
 #poemIntro3{
     display: flex;
@@ -87,13 +91,18 @@ h3{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     margin-left: 160px;
 }
+
+#background4{
+   
+    background-color: rgb(240, 196, 244);
+
+} 
 
 #poemIntro4{
     display: flex;
@@ -109,13 +118,18 @@ h3{
     margin-left: 225px;
 }
 
+#background5{
+   
+    background-color: rgb(212, 231, 251);
+
+} 
+
 #poemIntro5{
     display: flex;
     flex-direction: row;    
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -137,13 +151,18 @@ h3{
     margin-left: 310px;
 }
 
+#background7{
+   
+    background-color: rgb(212, 247, 251);
+
+} 
+
 #poemIntro7{
     display: flex;
     flex-direction: row;    
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: white;
     color: #36bbf9;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -165,6 +184,7 @@ h3{
     margin-left: 440px;
 }
 
+
 #poemIntro9{
     display: flex;
     flex-direction: row;    
@@ -177,6 +197,41 @@ h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
     margin-left: 550px;
+}
+
+#fullPoem{
+    display: flex;
+    flex-direction:column;    
+    align-items: center;
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    color: #36bbf9;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 220px;
+}
+
+
+#credits1{
+
+    color: #36bbf9;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#author1{
+
+    color: #36bbf9;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 #community{
@@ -570,7 +625,7 @@ nav a:hover {
 
 100%{
 
-    background-color: rgb(190, 225, 255);
+    background-color: rgb(225, 240, 253);
 }
 
 }
