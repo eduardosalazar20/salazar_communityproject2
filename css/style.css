@@ -272,27 +272,28 @@ h3{
 
 
 
-#pews1{
-    margin-left: 0.3%;
+
+
+#legs{
+    margin-left: 1%;
     margin-right: 3%;
-    animation-name: pews2;
-    animation-delay: 3s;
+    animation-name: legs;
+    animation-delay: 0s;
     animation-direction: forwards;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-iteration-count: inherit;
+    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     font-size: 25px;
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-
 #trade1{
 
     margin-left: 0.5%;
     margin-right: 0.5%;
-    animation-name: faithUp;
+    animation-name: trading2;
     animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -308,7 +309,7 @@ h3{
 
     margin-left: 0.5%;
     margin-right: 0.5%;
-    animation-name: communityUp;
+    animation-name: glance2;
     animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -335,7 +336,20 @@ h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-
+#pews1{
+    margin-left: 0.3%;
+    margin-right: 3%;
+    animation-name: pews2;
+    animation-delay: 3s;
+    animation-direction: forwards;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 
 
 
@@ -481,9 +495,9 @@ h3{
 
 #faith2{
 
-    margin-left: 1%;
-    margin-right: 1%;
-    animation-name: faithUp;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    animation-name: faithglow;
     animation-delay: 3s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -499,7 +513,7 @@ h3{
 
     margin-left: 0.5%;
     margin-right: 0.5%;
-    animation-name: communityUp;
+    animation-name: communityglow;
     animation-delay: 2s;
     animation-direction: forwards;
     animation-duration: 3s;
@@ -762,7 +776,7 @@ nav a:hover {
 
 }
 
-@keyframes faithUp{
+@keyframes trading2{
 
 
     50% {
@@ -776,7 +790,7 @@ nav a:hover {
 
 }
 
-@keyframes communityUp{
+@keyframes glance2{
 
 
     50% {
@@ -805,9 +819,36 @@ nav a:hover {
     width: 100%;
 }
 
+}
+
+
+@keyframes faithglow{
+
+
+    50% {
+        transform: scale(1) ;
+     }
+     
+     100%{
+        color: darkgoldenrod; transform: scale(1.1)
+     }
+
 
 }
 
+@keyframes communityglow{
+
+
+    50% {
+        transform: scale(1) ;
+     }
+     
+     100%{
+        color: darkgoldenrod; transform: scale(1.1)
+     }
+
+
+}
 
 
 
