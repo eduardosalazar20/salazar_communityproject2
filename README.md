@@ -58,8 +58,6 @@ Index 9 text animations are "joining a family larger than their own". For the fi
 
 
 
-
-
 # acknowledgment
 
 
@@ -71,7 +69,14 @@ This animation was used to create using an id tag.
 
 https://youtu.be/4PbgtyE0mGs?si=eh5JiIverFSNtK8T
 
+https://youtu.be/ccO2B40zkv4?si=hNLFByq4lunAyuOo
 
+https://youtu.be/m1ZKHPbnyjo?si=GDYSZgst0xioUabC
+
+
+Process Images:
+![Wireframes](images/Wireframe%202%20.jpg)
+![Wireframes](images/Wireframe.jpg)
 
 
 
